@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppColorsLight {
   static const scaffoldBackgroundColor = Colors.white;
-  static const primaryColors = Color(0xffC7C6CD); // 0xfff0f0f8
+  static const primaryColor = Color(0xffC7C6CD); // 0xfff0f0f8
   static const itemSelectedColor = Color(0xff86b2f1);
   static const appBarColor = Color(0xffC7C6CD);
   static const unselectedText = Color(0xffb5b6ba);

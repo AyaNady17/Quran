@@ -149,6 +149,16 @@ class S {
       args: [],
     );
   }
+
+  /// `مواقيت الصلاة`
+  String get PrayerTimes {
+    return Intl.message(
+      'مواقيت الصلاة',
+      name: 'PrayerTimes',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

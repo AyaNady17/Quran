@@ -6,7 +6,7 @@ import '../AppColors/app_colors.light.dart';
 
 ThemeData getAppLightTheme() => ThemeData(
       scaffoldBackgroundColor: AppColorsLight.scaffoldBackgroundColor,
-      primaryColor: AppColorsLight.primaryColors,
+      primaryColor: AppColorsLight.primaryColor,
 
       appBarTheme: const AppBarTheme(
         color: AppColorsLight.appBarColor,

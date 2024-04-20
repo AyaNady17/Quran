@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:quran_app/Features/Prayer%20Times/Presentation/Views/prayer_times_view.dart';
 
 import 'Features/Home/Presentation/view_models/Cubits/Localization/localization_cubit.dart';
 import 'Features/Home/Presentation/view_models/Cubits/Theme/theme_cubit.dart';
@@ -96,7 +97,7 @@ class QuranApp extends StatelessWidget {
 
                 onGenerateRoute: AppRouter.onGenerateRoutes,
 
-                home: const CustomBottomNavBar(),
+                home: const PrayerTimes(),
               );
             },
           );

@@ -44,4 +44,6 @@ class AppStrings {
   static const faceBookAccount = 'https://web.facebook.com/kareem.abdean';
   static const instaAccount = 'https://www.instagram.com/kareemabdeen1/';
   static const telegramAccount = 'https://t.me/kareemabdeen1';
+
+  static const prayerTimes = "مواقيت الصلاة ";
 }

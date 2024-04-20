@@ -53,7 +53,7 @@ class CustomSliverAppBar extends StatelessWidget {
           bottomFromTitle,
         ),
         title: Text(
-          'السبحه',
+          title,
           style: Theme.of(context).textTheme.titleLarge!,
         ),
       ),
